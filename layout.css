@@ -1,0 +1,701 @@
+@media only screen and (max-width: 480px) {
+  header{
+    width: 480px;
+    height: 97.6vh;
+    color: white;
+    background-image: url(images/hero-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-section-container {
+    width: 85%;
+    margin: 30px 0;
+    margin-left: 30px;
+    padding-top: 600px;
+}
+  .header-text h3{
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-weight: 300;
+    line-height: 1rem;
+    margin-bottom: 20px;
+  }
+  #services{  
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+    border-bottom: 10px solid #ffffff;
+    font-size: 3.5rem;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .header-logo{
+    display: none;
+  }
+
+    /* ------------------------- */
+
+  .body-section{
+    background-color: #e6e8e8;
+    height: 80vh;
+    width: 100%;
+  }
+  .our-services-heading{
+    margin-top: 50px;
+  }
+  .our-services-section {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+  }
+  .our-services-section p {
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 80%;
+    margin: auto;
+  }
+  .our-services-section h1{
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    width: 80%;
+    margin: auto;
+  }
+  .custom-button{
+    border-style: none;
+    background-color:#e33434;
+    padding: 20px 40px;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+
+  /* ------------------------------ */
+
+  .body-section-2{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 85vh;
+    text-align: center;
+  }
+  
+  #Open-Sans-Font{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .help-content-1 img{
+    display: none;
+  }
+  .help-content-2 img{
+    display: none;
+  }
+
+  .image-1{
+    background-image: url(images/billionphotos1882993.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+  }
+  .image-2{
+    background-image: url(images/billionphotos1883011.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+  }
+  .help-content-1 p{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    line-height: 1.7rem;
+  }
+  .help-content-2{
+    margin-top: 40px;
+  }
+  .help-content-2 h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .help-content-2 h3{
+    font-size: 1.5rem;
+    color: #e33434;
+    margin-bottom: 75px;
+  }
+
+/* ------------------------------------------ */
+
+  .body-section-3{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(235, 235, 235);
+    display: block;
+    margin-top: 550px;
+  } 
+  .best-quality{
+    background-image: url(images/billionphotos1079319min.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 400px;
+    margin: auto;
+  }
+  .best-quality-text{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 90px;
+    align-content: center;
+    height: 80vh;
+    padding-top: 70px;
+  }
+  .best-quality-text h1{
+    margin-top: -60px;  
+    padding-bottom: 32px;
+    border-bottom: 10px solid #e33434;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #104e92;;
+  }
+  .best-quality-text p{
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .best-quality-text .custom-button{
+    width: 150px;
+    border-style: none;
+    background-color:#e33434;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+/* ------------------------------------------------ */
+
+  .body-section-4{
+    background-color: #ffffff;
+    width: 480px;
+    height: 60vh;
+    margin: auto;
+    justify-content: center;
+  }
+  .our-services{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .our-services-heading h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+
+  }
+  .our-services-duties{
+    display: block;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .our-services-duties h4{
+    font-size: 1.5rem;
+  }
+  .our-services-duties p{
+    font-style: italic;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .duty{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .duty h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #icon{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    background-color: #e33434;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  /* ------------------------------------ */
+
+  .body-section-5{
+    width: 100%;
+    background-color: #104e92;;
+    height: 185vh;
+    display: block;
+
+  }
+  .about-us-section{
+    display: block;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 27px;
+    margin: auto;
+    width: 80%;
+    margin-top: 530px;
+    padding-top: 10px;
+  }
+  .view-1{
+    display: none;
+  }
+  .view-2{
+    display: none;
+  }
+  .grid-item{
+    background-color: #104e92;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: ; */
+  }
+  .item-1{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    margin-top: 100px;
+    background-color: #104e92;
+    color: #ffffff;
+    margin-right: 50px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+  }
+  .item-1 p{
+    letter-spacing: 2px;
+    color: #ffffff;
+    width: 100px;
+  }
+  .item-1 h1{
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  .item-1 h2{
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .item-2{
+    grid-column: auto / span 2;
+  }
+  .item-3{
+    grid-column: auto / span 2;
+  }
+  .item-4{
+    grid-column: auto / span 2;
+  }
+  .item-5{
+    grid-column: auto / span 2;
+   
+  }
+  .grid-item img{
+    height: 200px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+/* ------------------------------------------ */
+
+  .todo-section{
+    height: 52vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .todo-text{
+    width: 60%;
+    /* text-align: center; */
+    margin: auto;
+    
+  }
+  .todo-text h1{
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+  }
+  .todo-text p{
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  .todo-button{
+    display: block;
+    margin: 30px;
+    padding-bottom: 100px;
+  }
+  .custom-button2{
+    border-style: none;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 4px;
+    color: #000000;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px){
+  header{
+    width: 100%;
+    height: 97.6vh;
+    display: flex;
+    color: white;
+    background-image: url(images/hero-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-section{
+    width: 70%;
+    padding-top: 90px;
+  }
+  .header-section-container{
+    width: 80%;
+    margin: 320px 0;
+    margin-left: 50px;
+  }
+  .header-text h3{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 1rem;
+    margin-bottom: 20px;
+  }
+  #services{  
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+    border-bottom: 10px solid #ffffff;
+    font-size: 4.1rem;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .header-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .header-logo img{
+    margin-bottom: 25px;
+  }
+  .header-logo p{
+    letter-spacing: 1px;
+  }
+
+  /* ----------------------------------------- */
+
+  .body-section{
+    background-color: #e6e8e8;
+    height: 90vh;
+    width: 100%;
+  }
+  .our-services-heading{
+    margin-top: 50px;
+  }
+  .our-services-section {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+  }
+  .our-services-section p {
+    color: grey;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .our-services-section h1{
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+  }
+  .custom-button{
+    border-style: none;
+    background-color:#e33434;
+    padding: 20px 40px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  /* ------------------------------------- */
+
+  .body-section-2{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 85vh;
+    text-align: left;
+  }
+  
+  #Open-Sans-Font{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .help-content-1 img{
+    width: 100%;
+  }
+  .help-content-2 img{
+    width: 100%;
+  }
+  .help-content-1 p{
+    width: 75%;
+    margin: auto;
+    margin-top: 70px;
+    line-height: 1.7rem;
+    margin-left: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .help-content-2{
+    margin-top: 40px;
+  }
+  .help-content-2 h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  .help-content-2 h3{
+    font-size: 1.9rem;
+    color: #e33434;
+    margin-bottom: 75px;
+    margin-left: 50px;
+  }
+  
+  /* -------------------------------- */
+
+  .body-section-3{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 830px;
+  }
+  .best-quality{
+    background-image: url(images/billionphotos1079319min.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+  }
+  .best-quality-text{
+    width: 35%;
+    margin-left: 30px;
+    display: grid;
+    place-content: center;
+    padding-top: 150px;
+  }
+  .best-quality-text h1{
+    margin-top: -60px;  
+    padding-bottom: 32px;
+    border-bottom: 10px solid #e33434;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #104e92;;
+  }
+  .best-quality-text p{
+    line-height: 1.5em;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .best-quality-text .custom-button{
+    width: 150px;
+    border-style: none;
+    background-color:#e33434;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  /* ----------------------------------------- */
+
+  .body-section-4{
+    background-color: #ffffff;
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+  .our-services{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+  }
+  .our-services-heading h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 3.3rem;
+  }
+  .our-services-duties{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .our-services-duties h4{
+    font-size: 1.5rem;
+  }
+  .our-services-duties p{
+    font-style: italic;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  .duty{
+    width: 30%;
+  }
+  .duty h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #icon{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    background-color: #e33434;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 50px;
+  }
+
+  /* -------------------------------------------- */
+
+  .body-section-5{
+    width: 100%;
+    background-color: #104e92;;
+    height: 110vh;
+    place-content: center;
+    padding-bottom: 90px;
+  }
+  .about-us-section{
+    display: block;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 27px;
+    margin: auto;
+    width: 80%;
+  }
+  
+  .grid-item{
+    background-color: #104e92;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .view-1{
+    margin-left: 30px;
+    color: #ffffff;
+    padding-top: 50px;
+    font-weight: 100;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .view-2{
+    display: flex;
+    margin-left: 30px;
+    color: #ffffff;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+  .view-2 h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  .view-2 h2{
+    margin-left: 15px;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .item-1{
+    display: none;
+  }
+  .item-2{
+    grid-column: auto / span 2;
+    display: inline-block;
+  }
+  .item-3{
+    grid-column: auto / span 2;
+    display: inline-block;
+  }
+  .item-4{
+    grid-column: auto / span 2;
+    display: inline-block;
+  }
+  .item-5{
+    grid-column: auto / span 2;
+    display: inline-block;
+  }
+  .grid-item img{
+    height: 300px;
+    width: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+  }
+
+  /* ------------------------------------- */
+
+    
+  .todo-section{
+    height: 52vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .todo-text{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  .todo-text h1{
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .todo-text p{
+    font-weight: 300;
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .todo-button{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    justify-content: space-between;
+  }
+  .custom-button2{
+    border-style: none;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 4px;
+    color: #000000;
+    border: 1px solid black;
+  }
+}

@@ -1,0 +1,341 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 1024px){
+    
+  header{
+    width: 100%;
+    height: 97.6vh;
+    display: flex;
+    color: white;
+    background-image: url(images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .header-section{
+    width: 80%;
+  }
+  .header-section-container{
+    width: 50%;
+    margin: 270px 0;
+    margin-left: 180px;
+  }
+  .header-text h3{
+    font-size: 4rem;
+    letter-spacing: 4px;
+    font-weight: 300;
+    line-height: 1rem;
+    margin-bottom: 20px;
+  }
+  #services{  
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+    border-bottom: 10px solid #ffffff;
+    font-size: 6.5rem;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    font-weight: 900;
+  }
+  .header-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .header-logo img{
+    margin-bottom: 25px;
+  }
+  .header-logo p{
+    letter-spacing: 1px;
+  }
+
+  /*----------------------------------------*/
+
+  .body-section{
+    background-color: #e6e8e8;
+    height: 70vh;
+    width: 100%;
+  }
+  .our-services-heading{
+    margin-top: 50px;
+  }
+  .our-services-section {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+  }
+  .our-services-section p {
+    color: grey;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+  }
+  .our-services-section h1{
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+  }
+  .custom-button{
+    border-style: none;
+    background-color:#e33434;
+    padding: 20px 40px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  /* ---------------------------------------- */
+
+  .body-section-2{
+    display: flex;
+    width: 68%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 85vh;
+  }
+
+  #Open-Sans-Font{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .help-content-1 p{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    line-height: 1.7rem;
+  }
+  .help-content-2{
+    margin-top: 40px;
+  }
+  .help-content-2 h2{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  .help-content-2 h3{
+    font-size: 1.9rem;
+    color: #e33434;
+    margin-bottom: 75px;
+  }
+
+  /* ---------------------------------------- */
+
+  .body-section-3{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .best-quality{
+    background-image: url(images/billionphotos1079319min.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 85vh;
+    position: relative;
+    top: 25px;
+  }
+  .best-quality-text{
+    width: 35%;
+    margin-left: 30px;
+    align-content: center;
+    display: grid;
+    place-content: center;
+  }
+  .best-quality-text h1{
+    margin-top: -60px;  
+    padding-bottom: 32px;
+    border-bottom: 10px solid #e33434;
+    margin-bottom: 20px;
+    font-size: 4.3rem;
+    color: #104e92;;
+  }
+  .best-quality-text p{
+    line-height: 1.5em;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+  }
+  .best-quality-text .custom-button{
+    width: 150px;
+    border-style: none;
+    background-color:#e33434;
+    padding: 15px 30px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  /* ------------------------------------------ */
+
+  .body-section-4{
+    background-color: #ffffff;
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    justify-content: center;
+  }
+  .our-services{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+  }
+  .our-services-heading h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+
+  }
+  .our-services-duties{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .our-services-duties h4{
+    font-size: 1.5rem;
+  }
+  .our-services-duties p{
+    font-style: italic;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  .duty{
+    width: 30%;
+  }
+  .duty h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #icon{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    background-color: #e33434;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  /* ---------------------------------------- */
+
+  .body-section-5{
+    width: 100%;
+    background-color: #104e92;;
+    height: 75vh;
+    display: grid;
+    place-content: center;
+  }
+  .about-us-section{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 27px;
+    margin: auto;
+    width: 80%;
+    
+  }
+  .view-1{
+    display: none;
+  }
+  .view-2{
+    display: none;
+  }
+  .grid-item{
+    background-color: #104e92;
+    overflow: hidden;
+    height: 200px;
+    width: 235px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .item-1{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    margin-top: 100px;
+    background-color: #104e92;
+    color: #ffffff;
+    margin-right: 50px;
+    padding-right: 370px;
+    padding-bottom: 350px;
+  }
+  .item-1 p{
+    letter-spacing: 2px;
+    color: #ffffff;
+    width: 100px;
+  }
+  .item-1 h1{
+    font-size: 5.3rem;
+    font-weight: 400;
+  }
+  .item-1 h2{
+    font-size: 5.3rem;
+    font-weight: 900;
+  }
+  .item-2{
+    grid-column: auto / span 2;
+  }
+  .item-3{
+    grid-column: auto / span 2;
+  }
+  .item-4{
+    grid-column: auto / span 2;
+  }
+  .item-5{
+    grid-column: auto / span 2;
+  
+  }
+  .grid-item img{
+    height: 200px;
+    width: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* ------------------------------------------ */
+
+  .todo-section{
+    height: 52vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .todo-text{
+    width: 45%;
+    margin: auto;
+    
+  }
+  .todo-text h1{
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: 2.3rem;
+  }
+  .todo-text p{
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  .todo-button{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 43%;
+  }
+  .custom-button2{
+    border-style: none;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 4px;
+    color: #000000;
+    border: 1px solid black;
+  }
+}
