@@ -25,7 +25,7 @@
 
   header{
     width: 100%;
-    height: 110vh;
+    height: 70vh;
     color: white;
     background-image: url(images/hero-bg-4.jpg);
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 
   .body-section{
     background-color: #e6e8e8;
-    height: 70vh;
+    height: 48vh;
     width: 100%;
   }
   .our-services-heading{
@@ -88,15 +88,15 @@
   }
   .our-services-section p {
     font-weight: 300;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 1.2rem;
     line-height: 2rem;
-    width: 80%;
+    width: 85%;
     margin: auto;
   }
   .our-services-section h1{
-    margin-bottom: 40px;
-    font-size: 3.5rem;
+    padding-bottom: 30px;
+    font-size: 3rem;
     width: 80%;
     margin: auto;
   }
@@ -118,7 +118,7 @@
     margin: auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    height: 100vh;
+    height: 60vh;
     text-align: center;
   }
   
@@ -155,25 +155,32 @@
     margin: auto;
     margin-top: 70px;
     line-height: 1.7rem;
+    text-align: left;
   }
   .help-content-2{
     margin-top: 40px;
   }
   .help-content-2 h2{
+    width: 70%;
     font-size: 2rem;
+    margin: auto;
     margin-bottom: 20px;
+    text-align: left;
   }
   .help-content-2 h3{
+    width: 70%;
     font-size: 1.5rem;
     color: #e33434;
-    margin-bottom: 75px;
+    padding-bottom: 60px;
+    text-align: left;
+    margin: auto;
   }
 
 /* ------------------------------------------ */
 
   .body-section-3{
     width: 100%;
-    height: 85vh;
+    height: 54vh;
     background-color: rgb(235, 235, 235);
     display: flex;
     margin-top: 550px;
@@ -182,9 +189,10 @@
     background-image: url(images/billionphotos1079319min.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: inherit;
     width: 50%;
     margin-left: 20px;
+    height: 85vh;
   }
   .best-quality-text{
     height: 400px;
@@ -218,10 +226,9 @@
 .body-section-4{
   background-color: #ffffff;
   width: 100%;
-  height: 70vh;
+  height: 50vh;
   margin: auto;
   justify-content: center;
-  margin-bottom: 70px; 
 }
 .our-services{
   width: 80%;
@@ -273,7 +280,7 @@
   .body-section-5{
     width: 100%;
     background-color: #104e92;;
-    height: 150vh;
+    height: 90vh;
     display: grid;
 
   }
@@ -302,7 +309,7 @@
     color: #ffffff;
     height: 100px;
     width: 100%; 
-    /* margin-top: 80px; */
+    margin-top: 10px;
   }
   .item-1 .about-us{
     display: flex;
@@ -435,12 +442,12 @@
   }
   .header-section{
     width: 100%;
-    margin: auto;
-    margin-top: 500px
+    /* margin: auto; */
+    margin-top: 480px
     
   }
   .header-section-container {
-    width: 85%;
+    width: 80%;
     margin-left: 0px;
     margin: auto;
   }
@@ -449,13 +456,13 @@
     letter-spacing: 1px;
     font-weight: 300;
     line-height: 1rem;
-    margin-bottom: 1px;
+    margin-bottom: 10px;
   } 
   #services{  
     font-family: 'Inter', sans-serif;
     letter-spacing: 1px;
     border-bottom: 10px solid #ffffff;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     margin-bottom: 30px;
     font-weight: 900;
   }
@@ -467,7 +474,7 @@
 
   .body-section{
     background-color: #e6e8e8;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
   }
   .our-services-heading{
@@ -482,15 +489,17 @@
   .our-services-section p {
     font-weight: 300;
     margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 1.2rem;
-    line-height: 2rem;
-    width: 80%;
+    line-height: 2.3rem;
+    width: 85%;
     margin: auto;
   }
   .our-services-section h1{
-    margin-bottom: 40px;
-    font-size: 3.5rem;
-    width: 80%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 2.5rem;
+    width: 70%;
     margin: auto;
   }
   .custom-button{
@@ -511,7 +520,7 @@
     margin: auto;
     padding-top: 60px;
     padding-bottom: 60px;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
   }
   
@@ -530,8 +539,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin: auto;
   }
   .image-2{
@@ -539,27 +548,30 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin: auto;
   }
   .help-content-1 p{
-    width: 70%;
+    width: 80%;
     margin: auto;
-    margin-top: 70px;
+    text-align: left;
+    margin-top: 40px;
     line-height: 1.7rem;
   }
   .help-content-2{
     margin-top: 40px;
   }
   .help-content-2 h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 20px;
+    width: 80%;
   }
   .help-content-2 h3{
     font-size: 1.5rem;
     color: #e33434;
-    margin-bottom: 75px;
+    /* margin-bottom: 40px; */
+    width: 80%;
   }
 
 /* ------------------------------------------ */
@@ -575,14 +587,15 @@
     background-image: url(images/billionphotos1079319min.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     width: 350px;
     height: 400px;
     margin: auto;
   }
   .best-quality-text{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 170px;
     align-content: center;
   }
   .best-quality-text h1{
@@ -609,13 +622,13 @@
 
   .body-section-4{
     background-color: #ffffff;
-    width: 480px;
-    height: 80vh;
+    width: 100%;
+    height: 70vh;
     margin: auto;
     justify-content: center;
   }
   .our-services{
-    width: 70%;
+    width: 80%;
     margin: auto;
     justify-content: center;
     margin-bottom: 50px;
@@ -623,7 +636,7 @@
   .our-services-heading h1{
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
   }
   .our-services-duties{
@@ -668,7 +681,7 @@
   .body-section-5{
     width: 100%;
     background-color: #104e92;;
-    height: 260vh;
+    height: 250vh;
     display: block;
 
   }
@@ -679,7 +692,7 @@
     margin: auto;
     width: 80%;
     margin-top: 530px;
-    padding-top: 90px;
+    padding-top: 30px;
   }
   .view-1{
     display: none;
@@ -691,7 +704,7 @@
     background-color: #104e92;
     overflow: hidden;
     height: 350px;
-    width: 400px;
+    width: 300px;
     margin: auto;
   }
   .item-1{
@@ -700,9 +713,7 @@
     background-color: #104e92;
     color: #ffffff;
     margin-right: 50px;
-    /* margin-top: 80px; */
-    padding-bottom: 180px;
-    /* height: 600px; */
+    padding-bottom: 210px;
   }
   .item-1 .about-us{
     display: block;
@@ -755,19 +766,19 @@
     
   }
   .todo-text h1{
-    margin-top: 90px;
+    margin-top: 50px;
     margin-bottom: 40px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .todo-text p{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
   .todo-button{
     display: block;
-    margin: 30px;
-    padding-bottom: 100px;
+    /* margin: 30px; */
+    padding-bottom: 50px;
     width: 80%;
   }
   .custom-button2{
@@ -778,6 +789,7 @@
     color: #000000;
     border: 1px solid black;
     margin-top: 40px;
+    margin-left: 0px;
   }
 }
 
